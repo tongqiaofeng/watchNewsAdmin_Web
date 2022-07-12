@@ -1,0 +1,926 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "22ebef32bb63ae24584d3a8af8383200",
+    "url": "/admin/news/index.html"
+  },
+  {
+    "revision": "543cde9b53dbf0e46615bae8e2e6abff",
+    "url": "/admin/news/logo.png"
+  },
+  {
+    "revision": "de2a250651fa8446aa36d7a36f1a7c80",
+    "url": "/admin/news/manifest.json"
+  },
+  {
+    "revision": "a77c6ead52a76e8aab65",
+    "url": "/admin/news/static/css/app.e24758aa.css"
+  },
+  {
+    "revision": "99cc32b0de83bd454c50",
+    "url": "/admin/news/static/css/chunk-vendors.8251fe56.css"
+  },
+  {
+    "revision": "535877f50039c0cb49a6196a5b7517cd",
+    "url": "/admin/news/static/fonts/element-icons.535877f5.woff"
+  },
+  {
+    "revision": "732389ded34cb9c52dd88271f1345af9",
+    "url": "/admin/news/static/fonts/element-icons.732389de.ttf"
+  },
+  {
+    "revision": "73d42330453fc19ca806dc0253995d5a",
+    "url": "/admin/news/static/img/background.73d42330.png"
+  },
+  {
+    "revision": "7ab5f6b599db890a0ba9f7278ebd7a01",
+    "url": "/admin/news/static/img/iconfont.7ab5f6b5.svg"
+  },
+  {
+    "revision": "8ef5a206b7919ae608d36be123746607",
+    "url": "/admin/news/static/img/logo_white.8ef5a206.png"
+  },
+  {
+    "revision": "b6cc94919219550fc3061e870f22f1fc",
+    "url": "/admin/news/static/img/toptimeclub-01.b6cc9491.png"
+  },
+  {
+    "revision": "a77c6ead52a76e8aab65",
+    "url": "/admin/news/static/js/app.60da8ccf.js"
+  },
+  {
+    "revision": "99cc32b0de83bd454c50",
+    "url": "/admin/news/static/js/chunk-vendors.7b75e2a1.js"
+  },
+  {
+    "revision": "db6d7150981d9fc27ea128c1ffc34232",
+    "url": "/admin/news/static/tinymce/bower.json"
+  },
+  {
+    "revision": "9d78abf8498abdf75a57ef82d47e5c7f",
+    "url": "/admin/news/static/tinymce/changelog.txt"
+  },
+  {
+    "revision": "cf77dcde4545cad0dbb186eb6eee9523",
+    "url": "/admin/news/static/tinymce/composer.json"
+  },
+  {
+    "revision": "9a60dbfe8bb13bb3611f82b1120fd9b7",
+    "url": "/admin/news/static/tinymce/jquery.tinymce.js"
+  },
+  {
+    "revision": "9a60dbfe8bb13bb3611f82b1120fd9b7",
+    "url": "/admin/news/static/tinymce/jquery.tinymce.min.js"
+  },
+  {
+    "revision": "6f9589e0c8df783acd1760d203bafffa",
+    "url": "/admin/news/static/tinymce/license.txt"
+  },
+  {
+    "revision": "9cfe7e403fe0bd5ddf30ed09c7ba1633",
+    "url": "/admin/news/static/tinymce/package.json"
+  },
+  {
+    "revision": "344ca56d8dedfae33380a44b89dfdd1d",
+    "url": "/admin/news/static/tinymce/plugins/advlist/index.js"
+  },
+  {
+    "revision": "aa42e2ddea2f9d6a301cb667150182e1",
+    "url": "/admin/news/static/tinymce/plugins/advlist/plugin.js"
+  },
+  {
+    "revision": "07f871a08c4e74b122700f08d62cd2d5",
+    "url": "/admin/news/static/tinymce/plugins/advlist/plugin.min.js"
+  },
+  {
+    "revision": "dd697e3891ed83de226860a7aa436b10",
+    "url": "/admin/news/static/tinymce/plugins/anchor/index.js"
+  },
+  {
+    "revision": "5034fa75582d356453ca54492a71d2e2",
+    "url": "/admin/news/static/tinymce/plugins/anchor/plugin.js"
+  },
+  {
+    "revision": "36a2eff9cdc321ce544de3b340648875",
+    "url": "/admin/news/static/tinymce/plugins/anchor/plugin.min.js"
+  },
+  {
+    "revision": "fa84bd3bd42aeb01da94b784344d4d84",
+    "url": "/admin/news/static/tinymce/plugins/autolink/index.js"
+  },
+  {
+    "revision": "939fe6ea616050505d38c7549301ca74",
+    "url": "/admin/news/static/tinymce/plugins/autolink/plugin.js"
+  },
+  {
+    "revision": "9ec88f0ade4e000166d97a414b59458a",
+    "url": "/admin/news/static/tinymce/plugins/autolink/plugin.min.js"
+  },
+  {
+    "revision": "00116480a9865b9b84937b8c6ec471ed",
+    "url": "/admin/news/static/tinymce/plugins/autoresize/index.js"
+  },
+  {
+    "revision": "0c59632ece523f9de256253440601e2c",
+    "url": "/admin/news/static/tinymce/plugins/autoresize/plugin.js"
+  },
+  {
+    "revision": "4f9bc063578cc9b53ba5f3122c438155",
+    "url": "/admin/news/static/tinymce/plugins/autoresize/plugin.min.js"
+  },
+  {
+    "revision": "8d9bb78be9ddbce43bfd7964b71678ae",
+    "url": "/admin/news/static/tinymce/plugins/autosave/index.js"
+  },
+  {
+    "revision": "554cd93d6415a630551f124c8615ba24",
+    "url": "/admin/news/static/tinymce/plugins/autosave/plugin.js"
+  },
+  {
+    "revision": "3ef6b846b81e2def6c121c65dd132d65",
+    "url": "/admin/news/static/tinymce/plugins/autosave/plugin.min.js"
+  },
+  {
+    "revision": "bed89377ddde78f2d27067c6b3dcc633",
+    "url": "/admin/news/static/tinymce/plugins/bbcode/index.js"
+  },
+  {
+    "revision": "aae9fb8a60efc81a7ae9c2b346cb530f",
+    "url": "/admin/news/static/tinymce/plugins/bbcode/plugin.js"
+  },
+  {
+    "revision": "196e92d0338e72284c910dbc90c36e41",
+    "url": "/admin/news/static/tinymce/plugins/bbcode/plugin.min.js"
+  },
+  {
+    "revision": "18775f459a8bd073ba47b3ad3e2f6bdf",
+    "url": "/admin/news/static/tinymce/plugins/charmap/index.js"
+  },
+  {
+    "revision": "335ab10c417cdab6d9fc1a4ec9d9c0cc",
+    "url": "/admin/news/static/tinymce/plugins/charmap/plugin.js"
+  },
+  {
+    "revision": "3d42b6ec9f848bb610500d4cf6e2a00c",
+    "url": "/admin/news/static/tinymce/plugins/charmap/plugin.min.js"
+  },
+  {
+    "revision": "d2db687200588ab654afd39728df329f",
+    "url": "/admin/news/static/tinymce/plugins/code/index.js"
+  },
+  {
+    "revision": "fbb819bfa4319e52b20d2c54b226dd1c",
+    "url": "/admin/news/static/tinymce/plugins/code/plugin.js"
+  },
+  {
+    "revision": "7bf5c282b924a3d385b59edf9c9645cb",
+    "url": "/admin/news/static/tinymce/plugins/code/plugin.min.js"
+  },
+  {
+    "revision": "df3f7d54eba0f7771dce00316ed62361",
+    "url": "/admin/news/static/tinymce/plugins/codesample/css/prism.css"
+  },
+  {
+    "revision": "23fdb57b1d401abe9ff929ab26ec394e",
+    "url": "/admin/news/static/tinymce/plugins/codesample/index.js"
+  },
+  {
+    "revision": "6c2fd5661807a4acc44a4cf52cd3f8dc",
+    "url": "/admin/news/static/tinymce/plugins/codesample/plugin.js"
+  },
+  {
+    "revision": "efea41e3ad807df2fd8f72c7fb1e4e2c",
+    "url": "/admin/news/static/tinymce/plugins/codesample/plugin.min.js"
+  },
+  {
+    "revision": "f1771fdd14cab627310b813da43fa5ba",
+    "url": "/admin/news/static/tinymce/plugins/colorpicker/index.js"
+  },
+  {
+    "revision": "b55d895a6efed3445067c8f80111ae47",
+    "url": "/admin/news/static/tinymce/plugins/colorpicker/plugin.js"
+  },
+  {
+    "revision": "cdb6a59abe551818e8a3a6d61b68e00e",
+    "url": "/admin/news/static/tinymce/plugins/colorpicker/plugin.min.js"
+  },
+  {
+    "revision": "92e19a31db91abb704ccaa13cc28b766",
+    "url": "/admin/news/static/tinymce/plugins/contextmenu/index.js"
+  },
+  {
+    "revision": "214b96104018d213f106a3c5720bf885",
+    "url": "/admin/news/static/tinymce/plugins/contextmenu/plugin.js"
+  },
+  {
+    "revision": "314c0324f4418b6201eb10ee44d12abb",
+    "url": "/admin/news/static/tinymce/plugins/contextmenu/plugin.min.js"
+  },
+  {
+    "revision": "cd2c90f18e8c7d1215bc4ede4a2ed3ff",
+    "url": "/admin/news/static/tinymce/plugins/directionality/index.js"
+  },
+  {
+    "revision": "dec7cc3361680083ea7f5dcb54fc5c99",
+    "url": "/admin/news/static/tinymce/plugins/directionality/plugin.js"
+  },
+  {
+    "revision": "884572e84844add444b1c133a61f9a40",
+    "url": "/admin/news/static/tinymce/plugins/directionality/plugin.min.js"
+  },
+  {
+    "revision": "e26e97a318f82ec144b0818e5a8f8edb",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-cool.gif"
+  },
+  {
+    "revision": "e72bf995ceca9230273ed9909c5db9c8",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-cry.gif"
+  },
+  {
+    "revision": "d59171236e6b0b96091eeda1f7b57ce3",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-embarassed.gif"
+  },
+  {
+    "revision": "c12d9db6a14ad0b52f66f1e2cf2a38e7",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif"
+  },
+  {
+    "revision": "59930208822fe755f651a67ef4b70530",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-frown.gif"
+  },
+  {
+    "revision": "ec0477c8a206ff250782e40f9bae4b4c",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-innocent.gif"
+  },
+  {
+    "revision": "4ae8945f3960751b5d294f18242e144d",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-kiss.gif"
+  },
+  {
+    "revision": "c37f405db4e13cbebf24e745534687bf",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-laughing.gif"
+  },
+  {
+    "revision": "11c14bd1496afd0e21df115d25b68e96",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-money-mouth.gif"
+  },
+  {
+    "revision": "bb828cb46b377d1589927a02f8fd1762",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-sealed.gif"
+  },
+  {
+    "revision": "2968a664098d9580079c66d628dad1a8",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-smile.gif"
+  },
+  {
+    "revision": "2e136ebd637bf3e6c9fc6bdc20cbe73e",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-surprised.gif"
+  },
+  {
+    "revision": "5ec3bb4781c8e43a51d3a1a948b98fc0",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-tongue-out.gif"
+  },
+  {
+    "revision": "3c0c011d16b1a2331385ed97e160a42a",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-undecided.gif"
+  },
+  {
+    "revision": "897275ac7d07032b4d93fb83a0d2a41b",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-wink.gif"
+  },
+  {
+    "revision": "19bb8ebfe3c2f5ef3ffb9aa4a027900d",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/img/smiley-yell.gif"
+  },
+  {
+    "revision": "57e489f4ab69ca17dc7c95aef7052d88",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/index.js"
+  },
+  {
+    "revision": "102e0781ebdead9d8110f5f3064fff70",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/plugin.js"
+  },
+  {
+    "revision": "22b985b124477caf810de1dc896ee97c",
+    "url": "/admin/news/static/tinymce/plugins/emoticons/plugin.min.js"
+  },
+  {
+    "revision": "f5837caffaa3ead2f0b68daa0463cac0",
+    "url": "/admin/news/static/tinymce/plugins/fullpage/index.js"
+  },
+  {
+    "revision": "7440c6527e8c7c55b5268eff8c5108b8",
+    "url": "/admin/news/static/tinymce/plugins/fullpage/plugin.js"
+  },
+  {
+    "revision": "66c19307a3c68406077e6687656ae548",
+    "url": "/admin/news/static/tinymce/plugins/fullpage/plugin.min.js"
+  },
+  {
+    "revision": "2a071ce05b6865fc1a874f298b920e9e",
+    "url": "/admin/news/static/tinymce/plugins/fullscreen/index.js"
+  },
+  {
+    "revision": "b2e756244ff68d532d663d4b6027c162",
+    "url": "/admin/news/static/tinymce/plugins/fullscreen/plugin.js"
+  },
+  {
+    "revision": "0e31542957a5ced3fb021a641359a902",
+    "url": "/admin/news/static/tinymce/plugins/fullscreen/plugin.min.js"
+  },
+  {
+    "revision": "64ae1cb2051b82fb5af952b89b20b411",
+    "url": "/admin/news/static/tinymce/plugins/help/img/logo.png"
+  },
+  {
+    "revision": "b7c64e9d5f9003aacb929b6944987c2e",
+    "url": "/admin/news/static/tinymce/plugins/help/index.js"
+  },
+  {
+    "revision": "8f3e5382b37907b4640b4759260f1758",
+    "url": "/admin/news/static/tinymce/plugins/help/plugin.js"
+  },
+  {
+    "revision": "e16835e83efb48f297058673039ffb00",
+    "url": "/admin/news/static/tinymce/plugins/help/plugin.min.js"
+  },
+  {
+    "revision": "95e49e5a2cd979c3e7345c78d2d15779",
+    "url": "/admin/news/static/tinymce/plugins/hr/index.js"
+  },
+  {
+    "revision": "956e0e6c292dbe350319e51e17770e3e",
+    "url": "/admin/news/static/tinymce/plugins/hr/plugin.js"
+  },
+  {
+    "revision": "0911253e82299afa85c2950c033bb68f",
+    "url": "/admin/news/static/tinymce/plugins/hr/plugin.min.js"
+  },
+  {
+    "revision": "27415d3d43098d4bdb48c6c45c15e08c",
+    "url": "/admin/news/static/tinymce/plugins/image/index.js"
+  },
+  {
+    "revision": "4fa247f6fa7132c8dcf7730346d7187e",
+    "url": "/admin/news/static/tinymce/plugins/image/plugin.js"
+  },
+  {
+    "revision": "fc8ef476211a298ade22367077d81feb",
+    "url": "/admin/news/static/tinymce/plugins/image/plugin.min.js"
+  },
+  {
+    "revision": "1fcdb4ed72eff27ef54bdd585e306d29",
+    "url": "/admin/news/static/tinymce/plugins/imagetools/index.js"
+  },
+  {
+    "revision": "be4a73d7d25f4b1b6d81c63cae08723b",
+    "url": "/admin/news/static/tinymce/plugins/imagetools/plugin.js"
+  },
+  {
+    "revision": "664b1bdb684336f1619cbcf36ca2aff0",
+    "url": "/admin/news/static/tinymce/plugins/imagetools/plugin.min.js"
+  },
+  {
+    "revision": "2409fda93c2625fad2c9dfffe31b1473",
+    "url": "/admin/news/static/tinymce/plugins/importcss/index.js"
+  },
+  {
+    "revision": "22e501e931f3ab1c8b26eb4fd765fb60",
+    "url": "/admin/news/static/tinymce/plugins/importcss/plugin.js"
+  },
+  {
+    "revision": "f54c0bfa433b469bbea6b7c391670271",
+    "url": "/admin/news/static/tinymce/plugins/importcss/plugin.min.js"
+  },
+  {
+    "revision": "4ece334f6233df3aa3e5becbfe1f9a8e",
+    "url": "/admin/news/static/tinymce/plugins/insertdatetime/index.js"
+  },
+  {
+    "revision": "541b5cd0d313f0c70cbd7fdaaa85f671",
+    "url": "/admin/news/static/tinymce/plugins/insertdatetime/plugin.js"
+  },
+  {
+    "revision": "9cbdd4c216c0930f80cf98a4ef6e00c2",
+    "url": "/admin/news/static/tinymce/plugins/insertdatetime/plugin.min.js"
+  },
+  {
+    "revision": "ccdb9783bca4eebefc56e308b5fd8169",
+    "url": "/admin/news/static/tinymce/plugins/legacyoutput/index.js"
+  },
+  {
+    "revision": "edbe153705a8f8e73baf8bf541571e67",
+    "url": "/admin/news/static/tinymce/plugins/legacyoutput/plugin.js"
+  },
+  {
+    "revision": "77b8b473267e67e384843ff691461870",
+    "url": "/admin/news/static/tinymce/plugins/legacyoutput/plugin.min.js"
+  },
+  {
+    "revision": "5837f9d0ed7b2cc610dbffa6a7d7dafe",
+    "url": "/admin/news/static/tinymce/plugins/link/index.js"
+  },
+  {
+    "revision": "44bbc938f7914e76c469918bf46999c6",
+    "url": "/admin/news/static/tinymce/plugins/link/plugin.js"
+  },
+  {
+    "revision": "da71d62b165ecde69d1b7afb554ebb79",
+    "url": "/admin/news/static/tinymce/plugins/link/plugin.min.js"
+  },
+  {
+    "revision": "959bf9c345e983ce032814178b94cb09",
+    "url": "/admin/news/static/tinymce/plugins/lists/index.js"
+  },
+  {
+    "revision": "cb3c2759da96bddb536d9a30b863d448",
+    "url": "/admin/news/static/tinymce/plugins/lists/plugin.js"
+  },
+  {
+    "revision": "9ed88739e648baab4e1f9084db6cdf43",
+    "url": "/admin/news/static/tinymce/plugins/lists/plugin.min.js"
+  },
+  {
+    "revision": "22710d182e71e1bef50ee3838ac15b07",
+    "url": "/admin/news/static/tinymce/plugins/media/index.js"
+  },
+  {
+    "revision": "a8fea5436c538ff46461bc45c4e2f464",
+    "url": "/admin/news/static/tinymce/plugins/media/plugin.js"
+  },
+  {
+    "revision": "111e5c52d4d0f2d41fc16f65884954bc",
+    "url": "/admin/news/static/tinymce/plugins/media/plugin.min.js"
+  },
+  {
+    "revision": "851e4039437062e49d5729f1fe30cb40",
+    "url": "/admin/news/static/tinymce/plugins/nonbreaking/index.js"
+  },
+  {
+    "revision": "1936f56dd270cf1fb921edde24a40d09",
+    "url": "/admin/news/static/tinymce/plugins/nonbreaking/plugin.js"
+  },
+  {
+    "revision": "22788c4dedd0f515759f02e7d36c3759",
+    "url": "/admin/news/static/tinymce/plugins/nonbreaking/plugin.min.js"
+  },
+  {
+    "revision": "6f84addf13157d5abd4c1f2e9f1189f5",
+    "url": "/admin/news/static/tinymce/plugins/noneditable/index.js"
+  },
+  {
+    "revision": "e553233c94debfc7ca0b3edc44291758",
+    "url": "/admin/news/static/tinymce/plugins/noneditable/plugin.js"
+  },
+  {
+    "revision": "3337c8dcef9f95ff8949316813e2ff54",
+    "url": "/admin/news/static/tinymce/plugins/noneditable/plugin.min.js"
+  },
+  {
+    "revision": "b2ec3630c22897879bc089749ca3466e",
+    "url": "/admin/news/static/tinymce/plugins/pagebreak/index.js"
+  },
+  {
+    "revision": "f05711cdc3581ee1b73bc8cc93f2ec59",
+    "url": "/admin/news/static/tinymce/plugins/pagebreak/plugin.js"
+  },
+  {
+    "revision": "f557034121c4ca3abb653ac452c2954a",
+    "url": "/admin/news/static/tinymce/plugins/pagebreak/plugin.min.js"
+  },
+  {
+    "revision": "cd72ad7d99e1849620ff535b4f64daed",
+    "url": "/admin/news/static/tinymce/plugins/paste/index.js"
+  },
+  {
+    "revision": "670c207915447daac3502ea9e2a976eb",
+    "url": "/admin/news/static/tinymce/plugins/paste/plugin.js"
+  },
+  {
+    "revision": "0c12632fad7a606f5e00999beb6683d8",
+    "url": "/admin/news/static/tinymce/plugins/paste/plugin.min.js"
+  },
+  {
+    "revision": "ac924715206330e49ae83f0ce0a41a7c",
+    "url": "/admin/news/static/tinymce/plugins/preview/index.js"
+  },
+  {
+    "revision": "33d438b3b0051ede640b86f85a3ca762",
+    "url": "/admin/news/static/tinymce/plugins/preview/plugin.js"
+  },
+  {
+    "revision": "6798465fb6e0abbd4c21c60f01bc92b3",
+    "url": "/admin/news/static/tinymce/plugins/preview/plugin.min.js"
+  },
+  {
+    "revision": "7f3c93e1e7cf55fb60d83431fbe0af2c",
+    "url": "/admin/news/static/tinymce/plugins/print/index.js"
+  },
+  {
+    "revision": "ff4e04d200ed49d4ff1800ae04e3eac6",
+    "url": "/admin/news/static/tinymce/plugins/print/plugin.js"
+  },
+  {
+    "revision": "3ce46fc74efb2b05e845a14463db3894",
+    "url": "/admin/news/static/tinymce/plugins/print/plugin.min.js"
+  },
+  {
+    "revision": "d2a87bcc64b326fc6dfa962fcbc662e8",
+    "url": "/admin/news/static/tinymce/plugins/save/index.js"
+  },
+  {
+    "revision": "9a7aab4c1fd26ca043cf06c4686181a5",
+    "url": "/admin/news/static/tinymce/plugins/save/plugin.js"
+  },
+  {
+    "revision": "11ffce4ab9ce9b1fd0e7bf7b5450e215",
+    "url": "/admin/news/static/tinymce/plugins/save/plugin.min.js"
+  },
+  {
+    "revision": "027916795b63233ba94d3938bc15cc28",
+    "url": "/admin/news/static/tinymce/plugins/searchreplace/index.js"
+  },
+  {
+    "revision": "1f7d6a4e1048341e6e04a7f980445ea2",
+    "url": "/admin/news/static/tinymce/plugins/searchreplace/plugin.js"
+  },
+  {
+    "revision": "bd01eaafba4db40b32ee4616fbb83630",
+    "url": "/admin/news/static/tinymce/plugins/searchreplace/plugin.min.js"
+  },
+  {
+    "revision": "e22949d41a8208123a8694f0c8e6dec4",
+    "url": "/admin/news/static/tinymce/plugins/spellchecker/index.js"
+  },
+  {
+    "revision": "233a7818ee678b5c83b55cee1948cc76",
+    "url": "/admin/news/static/tinymce/plugins/spellchecker/plugin.js"
+  },
+  {
+    "revision": "c421941c9756efedee264cc6cc8266b2",
+    "url": "/admin/news/static/tinymce/plugins/spellchecker/plugin.min.js"
+  },
+  {
+    "revision": "c8dd5b7b07c3808712c5000e3b1d252a",
+    "url": "/admin/news/static/tinymce/plugins/tabfocus/index.js"
+  },
+  {
+    "revision": "06e8da867fae202404bde30a8c85b9b7",
+    "url": "/admin/news/static/tinymce/plugins/tabfocus/plugin.js"
+  },
+  {
+    "revision": "5ef8706c50672b8945100bf3bba5ecc6",
+    "url": "/admin/news/static/tinymce/plugins/tabfocus/plugin.min.js"
+  },
+  {
+    "revision": "dc0a57cf52e5c96e8886974820620f30",
+    "url": "/admin/news/static/tinymce/plugins/table/index.js"
+  },
+  {
+    "revision": "961f00fcc05b39203900a4702e1aa0b1",
+    "url": "/admin/news/static/tinymce/plugins/table/plugin.js"
+  },
+  {
+    "revision": "d767b59d8dfaf59951106fcf0b9b3c0e",
+    "url": "/admin/news/static/tinymce/plugins/table/plugin.min.js"
+  },
+  {
+    "revision": "4629fcd244d51c5f71a77cca7a6f0b36",
+    "url": "/admin/news/static/tinymce/plugins/template/index.js"
+  },
+  {
+    "revision": "b88b17d2324840e340332c78936210ba",
+    "url": "/admin/news/static/tinymce/plugins/template/plugin.js"
+  },
+  {
+    "revision": "33d727b7499d253018e126bf487d3ea0",
+    "url": "/admin/news/static/tinymce/plugins/template/plugin.min.js"
+  },
+  {
+    "revision": "ceb47c7e6b71b1089ec10b30a6aac374",
+    "url": "/admin/news/static/tinymce/plugins/textcolor/index.js"
+  },
+  {
+    "revision": "819d079208ec0d124b8d31384e9f42a6",
+    "url": "/admin/news/static/tinymce/plugins/textcolor/plugin.js"
+  },
+  {
+    "revision": "c4dc76993c68e4e4e8f0ceeeff70fc0b",
+    "url": "/admin/news/static/tinymce/plugins/textcolor/plugin.min.js"
+  },
+  {
+    "revision": "4ca571ec216214e68d950539134d2e66",
+    "url": "/admin/news/static/tinymce/plugins/textpattern/index.js"
+  },
+  {
+    "revision": "786199fb6077b0aad39f152abf54aca3",
+    "url": "/admin/news/static/tinymce/plugins/textpattern/plugin.js"
+  },
+  {
+    "revision": "318a7d1d38f83dd58f13c3a6574b3946",
+    "url": "/admin/news/static/tinymce/plugins/textpattern/plugin.min.js"
+  },
+  {
+    "revision": "4fb0e875239aec497c229dcaf18d7bb5",
+    "url": "/admin/news/static/tinymce/plugins/toc/index.js"
+  },
+  {
+    "revision": "27c9b752ae1e4ccccf988e177b1dae3e",
+    "url": "/admin/news/static/tinymce/plugins/toc/plugin.js"
+  },
+  {
+    "revision": "c83981aff9688ad9aced3f99c09b5e05",
+    "url": "/admin/news/static/tinymce/plugins/toc/plugin.min.js"
+  },
+  {
+    "revision": "03ea1695db057e6a1aa0b24699401ef7",
+    "url": "/admin/news/static/tinymce/plugins/visualblocks/css/visualblocks.css"
+  },
+  {
+    "revision": "1f348278fc3fa3ae9d560a2c6074537d",
+    "url": "/admin/news/static/tinymce/plugins/visualblocks/index.js"
+  },
+  {
+    "revision": "0e9fe393723cb7378e0d27e250978868",
+    "url": "/admin/news/static/tinymce/plugins/visualblocks/plugin.js"
+  },
+  {
+    "revision": "61cd5d798ca4bd2585b13d512b46f898",
+    "url": "/admin/news/static/tinymce/plugins/visualblocks/plugin.min.js"
+  },
+  {
+    "revision": "01e4394764848c643482a4e060c3c16c",
+    "url": "/admin/news/static/tinymce/plugins/visualchars/index.js"
+  },
+  {
+    "revision": "0bbfe48226ca746943b8e4bc3c9c2a16",
+    "url": "/admin/news/static/tinymce/plugins/visualchars/plugin.js"
+  },
+  {
+    "revision": "db0c8ef319047e07634e3f47793c167a",
+    "url": "/admin/news/static/tinymce/plugins/visualchars/plugin.min.js"
+  },
+  {
+    "revision": "8702637f4301b2c60b0d036a74a57952",
+    "url": "/admin/news/static/tinymce/plugins/wordcount/index.js"
+  },
+  {
+    "revision": "81c6a3b187ee5e618e41c04fd79ad207",
+    "url": "/admin/news/static/tinymce/plugins/wordcount/plugin.js"
+  },
+  {
+    "revision": "c0eafc6ffbea672e037fda9cbaca1902",
+    "url": "/admin/news/static/tinymce/plugins/wordcount/plugin.min.js"
+  },
+  {
+    "revision": "0a47fc24d5d852e289266b9662a3bd5f",
+    "url": "/admin/news/static/tinymce/readme.md"
+  },
+  {
+    "revision": "0de56511864c9de2a5cdb878010fc550",
+    "url": "/admin/news/static/tinymce/skins/lightgray/content.inline.min.css"
+  },
+  {
+    "revision": "0be8f6d47b7eb85f49cbb5b54feb4b40",
+    "url": "/admin/news/static/tinymce/skins/lightgray/content.min.css"
+  },
+  {
+    "revision": "0684a64086ad1114949a1e51f06aa750",
+    "url": "/admin/news/static/tinymce/skins/lightgray/content.mobile.min.css"
+  },
+  {
+    "revision": "baecf466c40e709e7ffdbc935fc0813a",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce-mobile.woff"
+  },
+  {
+    "revision": "12d26c285b71d790f4b0c94423ef1f99",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce-small.eot"
+  },
+  {
+    "revision": "a2a1f732cc34764c684ed521c6f3327c",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce-small.svg"
+  },
+  {
+    "revision": "28806940c647cf671bebf4ae0630e570",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce-small.ttf"
+  },
+  {
+    "revision": "7e0c88f02dcaf2f78c90b4dc7827b709",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce-small.woff"
+  },
+  {
+    "revision": "6401227790b9e544ef6b8d749cd0a358",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce.eot"
+  },
+  {
+    "revision": "b84225c5a236c3f6cc1aded9afcf48dd",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce.svg"
+  },
+  {
+    "revision": "f8d2925604a55d7b8604a9875b8e70d3",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce.ttf"
+  },
+  {
+    "revision": "9267f79bc730290c6e2c90f9353d3ccf",
+    "url": "/admin/news/static/tinymce/skins/lightgray/fonts/tinymce.woff"
+  },
+  {
+    "revision": "abd3613571800fdcc891181d5f34f840",
+    "url": "/admin/news/static/tinymce/skins/lightgray/img/anchor.gif"
+  },
+  {
+    "revision": "394bafc3cc4dfb3a0ee48c1f54669539",
+    "url": "/admin/news/static/tinymce/skins/lightgray/img/loader.gif"
+  },
+  {
+    "revision": "f3726450d7457d750a2f4d9441c7ee20",
+    "url": "/admin/news/static/tinymce/skins/lightgray/img/object.gif"
+  },
+  {
+    "revision": "12bf9e19374920de3146a64775f46a5e",
+    "url": "/admin/news/static/tinymce/skins/lightgray/img/trans.gif"
+  },
+  {
+    "revision": "023c1b719912580a78e734a5648de4e1",
+    "url": "/admin/news/static/tinymce/skins/lightgray/skin.min.css"
+  },
+  {
+    "revision": "b7a6f110d8850de4aee094cff66bcc28",
+    "url": "/admin/news/static/tinymce/skins/lightgray/skin.mobile.min.css"
+  },
+  {
+    "revision": "30a111876b3216d9e51474a483c9a068",
+    "url": "/admin/news/static/tinymce/themes/inlite/index.js"
+  },
+  {
+    "revision": "2e0b29e581c32d815bed21fd64707853",
+    "url": "/admin/news/static/tinymce/themes/inlite/theme.js"
+  },
+  {
+    "revision": "7b322fd8528b6a896013723f18b6276f",
+    "url": "/admin/news/static/tinymce/themes/inlite/theme.min.js"
+  },
+  {
+    "revision": "a136bd2faba801a12080888b27e65afb",
+    "url": "/admin/news/static/tinymce/themes/mobile/index.js"
+  },
+  {
+    "revision": "aa1b58f185db06a1f900eaf4a8c5d709",
+    "url": "/admin/news/static/tinymce/themes/mobile/theme.js"
+  },
+  {
+    "revision": "2475c4ef0dadf74bdf1103db598c67fe",
+    "url": "/admin/news/static/tinymce/themes/mobile/theme.min.js"
+  },
+  {
+    "revision": "0d16153c5ec8d0abb0151c5fc56b806f",
+    "url": "/admin/news/static/tinymce/themes/modern/index.js"
+  },
+  {
+    "revision": "e6f75a6a123c3d3cc2bfbd82295f5c6f",
+    "url": "/admin/news/static/tinymce/themes/modern/theme.js"
+  },
+  {
+    "revision": "acab8e3f24274f31175a1d8cd79d10ec",
+    "url": "/admin/news/static/tinymce/themes/modern/theme.min.js"
+  },
+  {
+    "revision": "c5415a87ef30478f2c3c40b2a2e131a0",
+    "url": "/admin/news/static/tinymce/tinymce.js"
+  },
+  {
+    "revision": "a2eca9e203591027bb74a828ee7b03ff",
+    "url": "/admin/news/static/tinymce/tinymce.min.js"
+  },
+  {
+    "revision": "7c0b3cf8692e18585ff7c7abc0510010",
+    "url": "/admin/news/tinymce/langs/zh_CN.js"
+  },
+  {
+    "revision": "b3527206d7bfaf9e09c295f2f460a07e",
+    "url": "/admin/news/tinymce/plugins/lineheight/plugin.js"
+  },
+  {
+    "revision": "b3527206d7bfaf9e09c295f2f460a07e",
+    "url": "/admin/news/tinymce/plugins/lineheight/plugin.min.js"
+  },
+  {
+    "revision": "21d51aa3b251ee666fe63f41473e4731",
+    "url": "/admin/news/tinymce/skins/content/dark/content.css"
+  },
+  {
+    "revision": "ca8f0c08415563689b59d52cc029815b",
+    "url": "/admin/news/tinymce/skins/content/dark/content.min.css"
+  },
+  {
+    "revision": "7731675a9091b95d8882d88fd44ea978",
+    "url": "/admin/news/tinymce/skins/content/default/content.css"
+  },
+  {
+    "revision": "f92b7b2906b654e2dfb3650fa44a9b42",
+    "url": "/admin/news/tinymce/skins/content/default/content.min.css"
+  },
+  {
+    "revision": "4dc634a4f2def9e0f376a93589928ada",
+    "url": "/admin/news/tinymce/skins/content/document/content.css"
+  },
+  {
+    "revision": "91f332a1c4884ad5adf4107e304f84fe",
+    "url": "/admin/news/tinymce/skins/content/document/content.min.css"
+  },
+  {
+    "revision": "e0b194a072920c39e1e3818b74896063",
+    "url": "/admin/news/tinymce/skins/content/writer/content.css"
+  },
+  {
+    "revision": "8cd71063696a2f374dd4e479c2cdcb41",
+    "url": "/admin/news/tinymce/skins/content/writer/content.min.css"
+  },
+  {
+    "revision": "4001cfb83fd6d7116264f5f4f425fc6f",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/content.css"
+  },
+  {
+    "revision": "82b0b6b861e830d28f24e4ab576be68a",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/content.inline.css"
+  },
+  {
+    "revision": "24a060158f041451d4f24275265775ae",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/content.inline.min.css"
+  },
+  {
+    "revision": "0a88ced66dd018baf265f065db26194d",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/content.min.css"
+  },
+  {
+    "revision": "e84062c0d71bace6637586be7c2590d3",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/content.mobile.css"
+  },
+  {
+    "revision": "4e83ff7c5a3009d223b4502e51e6428e",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/content.mobile.min.css"
+  },
+  {
+    "revision": "baecf466c40e709e7ffdbc935fc0813a",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff"
+  },
+  {
+    "revision": "15f34672db828f2e4e061758171f75cd",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/skin.css"
+  },
+  {
+    "revision": "fcc5917868367f019beae31918f2bfb4",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/skin.min.css"
+  },
+  {
+    "revision": "338b06826c0e8a681688fc195dbb72b1",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/skin.mobile.css"
+  },
+  {
+    "revision": "80fce765215009dc97a50336418454fe",
+    "url": "/admin/news/tinymce/skins/ui/oxide-dark/skin.mobile.min.css"
+  },
+  {
+    "revision": "58aa1f4cbeed1b2df36a4da55295711e",
+    "url": "/admin/news/tinymce/skins/ui/oxide/content.css"
+  },
+  {
+    "revision": "82b0b6b861e830d28f24e4ab576be68a",
+    "url": "/admin/news/tinymce/skins/ui/oxide/content.inline.css"
+  },
+  {
+    "revision": "24a060158f041451d4f24275265775ae",
+    "url": "/admin/news/tinymce/skins/ui/oxide/content.inline.min.css"
+  },
+  {
+    "revision": "8aae8fca7388a0c238656a873dca74c3",
+    "url": "/admin/news/tinymce/skins/ui/oxide/content.min.css"
+  },
+  {
+    "revision": "e84062c0d71bace6637586be7c2590d3",
+    "url": "/admin/news/tinymce/skins/ui/oxide/content.mobile.css"
+  },
+  {
+    "revision": "4e83ff7c5a3009d223b4502e51e6428e",
+    "url": "/admin/news/tinymce/skins/ui/oxide/content.mobile.min.css"
+  },
+  {
+    "revision": "baecf466c40e709e7ffdbc935fc0813a",
+    "url": "/admin/news/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff"
+  },
+  {
+    "revision": "1ebaa08cb64a3a3c6ec7c7bfe4fbb488",
+    "url": "/admin/news/tinymce/skins/ui/oxide/skin.css"
+  },
+  {
+    "revision": "f38577e6ebba9e61f29628ddcba8459a",
+    "url": "/admin/news/tinymce/skins/ui/oxide/skin.min.css"
+  },
+  {
+    "revision": "338b06826c0e8a681688fc195dbb72b1",
+    "url": "/admin/news/tinymce/skins/ui/oxide/skin.mobile.css"
+  },
+  {
+    "revision": "80fce765215009dc97a50336418454fe",
+    "url": "/admin/news/tinymce/skins/ui/oxide/skin.mobile.min.css"
+  }
+]);
