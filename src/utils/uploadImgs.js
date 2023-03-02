@@ -20,7 +20,8 @@ const UploadImg = {
           (base64Codes) => {
             let arr = base64Codes.split(","),
               mime = arr[0].match(/:(.*?);/)[1], // 去掉url的头，并转化为byte
-              bstr = atob(arr[1]), // 处理异常,将ascii码小于0的转换为大于0
+              // bstr = atob(arr[1]), // 处理异常,将ascii码小于0的转换为大于0
+              bstr = new Buffer.from(arr[1], "base64").toString("binary"),
               n = bstr.length,
               u8arr = new Uint8Array(n);
             while (n--) {
